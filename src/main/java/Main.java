@@ -6,13 +6,12 @@ public class Main {
     public static final String PASSWORD = "root";
     public static final int N = 100;
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
         Application application = new Application();
         application.setUrl(URL);
         application.setUser(USER);
         application.setPassword(PASSWORD);
         application.setN(N);
-        //application.setConnection();
         application.run();
     }
 }
